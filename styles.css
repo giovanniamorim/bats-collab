@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #09090a;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Quadrados centralizados */
+.content-box {
+    width: 110%;
+    max-width: 400px;
+    padding: 70px;
+    border-radius: 8px;
+    background: rgb(255, 254, 254);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+    
+
+
+/* Zoom nas imagens */
+.img-fluid {
+    max-width: 100%;
+    height: 70;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Títulos personalizados */
+h1, h2 {
+    font-weight: bold;
+    
+}
+
+
+
+/* Cor personalizada para o texto do portfólio */
+.text-pink {
+    color: rgb(243, 131, 187);
+    
+}
+
+/* Botões */
+.btn {
+    padding: 10px 20px;
+}
+
+/* Footer alinhado */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Selecionando o <p> dentro da section com a classe "text-center" */
+.text-center p {
+    color: #080808;  /* Cor do texto */
+    font-size: 1.2rem;  /* Tamanho da fonte */
+    font-weight: bold;  /* Deixa o texto em negrito */
+    font-style: italic;  /* Texto em itálico */
+    margin-top: 10px;  /* Ajuste de espaçamento */
+    
+  
+}
+
+/* Selecionando o <h1> dentro da .content-box */
+.content-box h1 {
+    color: #444; /* Cor do texto */
+    font-size: 0.9rem; /* Ajuste no tamanho da fonte */
+    font-weight: normal; /* Peso da fonte */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilizando a seção com fundo preto e texto claro */
+.text-center.py-5.bg-dark.text-light {
+    background-color: #000; /* Fundo preto */
+    color: #1a1818; /* Texto branco */
+    padding: 5rem 0; /* Espaçamento vertical */
+    position: relative; /* Para permitir o posicionamento de imagem de fundo */
+}
+
+/* Mudando a cor do título "QUEM SOMOS" para laranja */
+.content-box h5 {
+    color: #FFA500; /* Cor laranja */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: bangers;
+}
+
+/* Estilizando o parágrafo */
+.content-box p {
+    color: #1a1818;  /* Texto branco */
+    font-size: 0.9rem;  /* Ajuste no tamanho da fonte */
+    font-weight:lighter;
+    line-height: 1.8;
+}
+
+/* Estilizando a imagem dentro da seção */
+.content-box img {
+    width: 65%; /* Ajusta a largura para 50% do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 50%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+}
+
+.allelos {
+    width: 280%;
+    max-width: 500px; /* Maior largura */
+    margin: 0 auto; /* Centralizado */
+    background: #fff;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.fw-bold {
+    color: #fcda1a; /* Cor laranja */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 1.5rem;
+
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #fcda1a; /* Fundo laranja */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo dos campos de entrada */
+form .form-control {
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+}
+
+/* Estilo do botão */
+form .btn-warning {
+    background-color: #1d7216; /* Fundo amarelo dourado */
+    color: #000; /* Texto preto */
+    font-weight: bold; /* Negrito */
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+
+.form-select{
+    background-color:#1a1818;
+    color:rgb(244, 246, 248)
+}
+
+.text-pink{
+    color: rgb(204, 28, 86);
+    font-weight: bold; /* Negrito */
+    font-style: italic;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+
+/* Outros estilos
+/* Estilos personalizados */
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.corpo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+footer a:hover {
+    color: #ffc107;
+}
+.navbar-brand img {
+    margin-right: 10px;
+}
+.content-box {
+    max-width: 800px;
+}
+.content-box-large {
+    max-width: 900px;
+}
+
